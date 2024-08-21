@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Placement Info</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/info.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        function printPage() {
+            window.print();
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Box Placement Information</h1>
+        <button class = "neumorphic-button" onclick="printPage()" ><i class="fa-solid fa-print"></i></button>
+        <div class = "image_text">
+            <img src="{{ url_for('static', filename='img/orientation.png') }}" alt="{{ png_file }}">
+            <div class = "placement_text">
+                <pre>{{ output_text }}</pre>
+            </div>            
+        </div>
+    </div>
+</body>
+</html>

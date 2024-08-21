@@ -1,0 +1,115 @@
+/* styles.css */
+
+body, h1{
+    margin: 0;
+    padding: 0;
+}
+
+/* Applying some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+/* styles.css */
+
+/* Neumorphic button styles */
+.neumorphic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #e0e0e0; /* Light grey background */
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 8px 8px 15px #bebebe, -8px -8px 15px #ffffff;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Neumorphic hover effect */
+.neumorphic-button:hover {
+    box-shadow: inset 8px 8px 15px #bebebe, inset -8px -8px 15px #ffffff;
+}
+
+/* Neumorphic active state */
+.neumorphic-button:active {
+    box-shadow: inset 8px 8px 15px #bebebe, inset -8px -8px 15px #ffffff;
+}
+
+/* Disabled state */
+.neumorphic-button:disabled {
+    background-color: #cccccc; /* Grey color for disabled state */
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Larger button size */
+.neumorphic-button.button-large {
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+/* Smaller button size */
+.neumorphic-button.button-small {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* Button with an icon */
+.neumorphic-button .icon {
+    margin-right: 8px; /* Space between icon and text */
+    vertical-align: middle;
+}
+
+/* Button container for centering */
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+pre {
+    text-align:left;
+    font-size:small;
+    font-family:Arial, sans-serif;
+    font-weight: 550;
+    font-style: normal;
+}
+.placement_text{
+    left: 50px;
+}
+/* Styling the header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+div {
+    background-color:white;
+    padding: 20px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    overflow-x: auto;
+    border: none;
+}
+
+div img {
+    display: block;
+    max-width: 60%;
+    height: auto;
+    margin: 20px auto; /* Center the image horizontally */
+}
+.image_text{
+    background-color: #f4f4f4;
+}

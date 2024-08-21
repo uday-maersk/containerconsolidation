@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Consolidation Placement</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/plots.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        function printPage() {
+            window.print();
+        }
+    </script>
+</head>
+<body>
+    <h2>Container Consolidation Plots</h2>
+    <button class = "neumorphic-button" onclick="printPage()" ><i class="fa-solid fa-print"></i></button>
+    <div id="stackable-images">
+        <h3>Stackable Boxes</h3>
+        <ul>
+            {% for png_file in png_files if not png_file.startswith('unstackable') %}
+                <li><img src="{{ url_for('static', filename=png_file) }}" alt="{{ png_file }}"></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div id="unstackable-images">
+        <h3>Unstackable Boxes</h3>
+        <ul>
+            {% for png_file in png_files if png_file.startswith('unstackable') %}
+                <li><img src="{{ url_for('static', filename=png_file) }}" alt="{{ png_file }}"></li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

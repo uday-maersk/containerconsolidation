@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Consolidation</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/styles.css')}}">
+</head>
+<body>
+    <h2>Container Consolidation for LCL</h2>
+    <div class="background-image">
+        <form id="inputForm" method="POST" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        <div>
+            {{ form.file1.label }}<br>
+            {{ form.file1(required=True) }}
+        </div>
+        <div>
+            {{ form.file2.label }}<br>
+            {{ form.file2(required=True) }}
+        </div>
+        {{ form.submit() }}
+    </form>
+    </div>
+    
+</body>
+</html>

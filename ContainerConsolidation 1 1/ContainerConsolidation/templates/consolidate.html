@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Consolidation</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/result.css')}}">
+    <style>
+        #loading {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.5em;
+            color: #fff;
+            background-color: #4c91af;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Container Consolidation for LCL</h2>
+    <form id="inputForm" method="POST" enctype="multipart/form-data">
+        <input type="button" onclick="submitForm()" value="Click to Consolidate">
+        <input type="button" id="reDirect" value="Container Consolidation Details">
+    </form>
+    <div id="loading">Processing...</div> <!-- Loading sign -->
+    <script type="text/javascript">
+        document.getElementById("reDirect").onclick = function () {
+            location.href = "result";
+        };
+
+        function showMessage() {
+            alert("Container Consolidation Processed");
+        }
+
+        function submitForm() {
+            showLoading(); // Show loading sign
+            sendPostRequest();
+        }
+
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+        }
+
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        function sendPostRequest() {
+            fetch('http://127.0.0.1:5000/solve', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({}) // Empty object
+            })
+            .then(response => response.json())
+            .then(data => {
+                hideLoading(); // Hide loading sign
+                console.log('Response:', data);
+                if (data.message === "Solution computed successfully") {
+                    showMessage();
+                } else {
+                    console.error("An error occurred:", data.error);
+                }
+            })
+            .catch(error => {
+                hideLoading(); // Hide loading sign
+                console.error('Error:', error);
+            });
+        }
+
+        fetch('/solve')
+            .then(response => {
+                if (response.ok) {
+                    response.json().then(data => {
+                        hideLoading(); // Hide loading sign
+                        if (data.message === "Solution computed successfully") {
+                            showMessage();
+                        } else {
+                            console.error("An error occurred:", data.error);
+                        }
+                    });
+                } else {
+                    hideLoading(); // Hide loading sign
+                    console.error("Server returned status:", response.status);
+                }
+            })
+            .catch(error => {
+                hideLoading(); // Hide loading sign
+                console.error("Error fetching result:", error);
+            });
+    </script>
+</body>
+</html>

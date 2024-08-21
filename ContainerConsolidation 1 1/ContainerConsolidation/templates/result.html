@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Consolidation Results</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/result.css')}}">
+</head>
+<body>
+    <div>
+        <h2>Container Consolidation Results</h2>
+        <form>
+            <input type="button" id="plot" value = "Container Consolidation Plots">
+            <input type="button" id="info" value = "Box Placement Details"> 
+        </form>
+        <script type="text/javascript">
+            document.getElementById("plot").onclick = function () {
+                location.href = "plots";
+            };
+            document.getElementById("info").onclick = function () {
+                location.href = "info";
+            };
+        </script>
+    </div>
+</body>
+</html>

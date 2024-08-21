@@ -1,0 +1,195 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Used 4 containers to consolidate the stackable boxes
+Container Space Utilization: 
+Container:  1 Volume Utilized:  66.22 %
+Container:  2 Volume Utilized:  70.91 %
+Container:  3 Volume Utilized:  74.32 %
+Container:  4 Volume Utilized:  40.99 %
+Container 1 Total Weight: 22664.12 kg
+Container 2 Total Weight: 27729.81 kg
+Container 3 Total Weight: 21738.77 kg
+Container 4 Total Weight: 10766.40 kg
+
+Orientation Details: 
+1 -> lwh
+2 -> lhw
+3 -> wlh
+4 -> whl
+5 -> hlw
+6 -> hwl
+
+Details for Container 1:
+Box 72 (Dimensions: (112, 53, 66), Orientation: 1)
+Box 50 (Dimensions: (144, 14, 17), Orientation: 1)
+Box 15 (Dimensions: (12, 70, 30), Orientation: 3)
+Box 51 (Dimensions: (59, 81, 30), Orientation: 4)
+Box 17 (Dimensions: (88, 81, 71), Orientation: 6)
+Box 47 (Dimensions: (160, 32, 28), Orientation: 1)
+Box 53 (Dimensions: (36, 29, 66), Orientation: 3)
+Box 40 (Dimensions: (53, 45, 80), Orientation: 3)
+Box 26 (Dimensions: (3, 33, 39), Orientation: 5)
+Box 61 (Dimensions: (117, 90, 8), Orientation: 1)
+Box 52 (Dimensions: (186, 23, 23), Orientation: 2)
+Box 46 (Dimensions: (69, 60, 57), Orientation: 5)
+Box 35 (Dimensions: (166, 39, 74), Orientation: 1)
+Box 28 (Dimensions: (142, 43, 35), Orientation: 2)
+Box 41 (Dimensions: (71, 68, 2), Orientation: 2)
+Box 58 (Dimensions: (182, 14, 8), Orientation: 1)
+Box 33 (Dimensions: (106, 30, 10), Orientation: 2)
+Box 65 (Dimensions: (159, 2, 17), Orientation: 1)
+Box 6 (Dimensions: (129, 3, 12), Orientation: 1)
+Box 9 (Dimensions: (52, 70, 69), Orientation: 5)
+Box 16 (Dimensions: (94, 61, 57), Orientation: 2)
+Box 48 (Dimensions: (107, 87, 5), Orientation: 6)
+Box 38 (Dimensions: (118, 6, 13), Orientation: 2)
+Box 20 (Dimensions: (34, 17, 81), Orientation: 4)
+Box 39 (Dimensions: (73, 23, 30), Orientation: 4)
+Box 23 (Dimensions: (40, 11, 58), Orientation: 3)
+Box 45 (Dimensions: (8, 7, 9), Orientation: 2)
+Box 8 (Dimensions: (4, 69, 88), Orientation: 6)
+Box 13 (Dimensions: (84, 2, 2), Orientation: 2)
+Box 7 (Dimensions: (37, 9, 19), Orientation: 3)
+
+Details for Container 2:
+Box 21 (Dimensions: (203, 47, 42), Orientation: 2)
+Box 60 (Dimensions: (200, 53, 51), Orientation: 1)
+Box 57 (Dimensions: (120, 81, 46), Orientation: 1)
+Box 67 (Dimensions: (52, 61, 65), Orientation: 5)
+Box 64 (Dimensions: (138, 81, 65), Orientation: 2)
+Box 59 (Dimensions: (109, 21, 30), Orientation: 2)
+Box 22 (Dimensions: (143, 39, 27), Orientation: 2)
+Box 4 (Dimensions: (129, 25, 12), Orientation: 1)
+Box 70 (Dimensions: (84, 42, 38), Orientation: 3)
+Box 14 (Dimensions: (195, 9, 71), Orientation: 2)
+Box 25 (Dimensions: (26, 70, 72), Orientation: 6)
+Box 42 (Dimensions: (112, 50, 23), Orientation: 2)
+Box 36 (Dimensions: (146, 10, 69), Orientation: 2)
+Box 27 (Dimensions: (47, 52, 34), Orientation: 5)
+Box 63 (Dimensions: (44, 55, 38), Orientation: 3)
+Box 43 (Dimensions: (130, 9, 46), Orientation: 2)
+Box 12 (Dimensions: (65, 40, 81), Orientation: 6)
+Box 29 (Dimensions: (115, 34, 10), Orientation: 1)
+Box 44 (Dimensions: (103, 9, 27), Orientation: 6)
+Box 31 (Dimensions: (13, 81, 22), Orientation: 2)
+
+Details for Container 3:
+Box 5 (Dimensions: (207, 77, 65), Orientation: 2)
+Box 66 (Dimensions: (184, 81, 38), Orientation: 2)
+Box 56 (Dimensions: (183, 75, 28), Orientation: 2)
+Box 30 (Dimensions: (152, 28, 61), Orientation: 2)
+Box 2 (Dimensions: (135, 58, 80), Orientation: 1)
+Box 34 (Dimensions: (134, 47, 43), Orientation: 1)
+Box 49 (Dimensions: (140, 86, 28), Orientation: 1)
+Box 69 (Dimensions: (134, 29, 52), Orientation: 2)
+Box 62 (Dimensions: (119, 62, 30), Orientation: 2)
+
+Details for Container 4:
+Box 54 (Dimensions: (189, 81, 38), Orientation: 1)
+Box 11 (Dimensions: (194, 46, 65), Orientation: 1)
+Box 32 (Dimensions: (38, 39, 22), Orientation: 1)
+Box 37 (Dimensions: (23, 89, 67), Orientation: 3)
+Box 18 (Dimensions: (200, 25, 54), Orientation: 1)
+Box 10 (Dimensions: (73, 63, 27), Orientation: 2)
+Box 71 (Dimensions: (194, 21, 23), Orientation: 2)
+Box 3 (Dimensions: (143, 26, 26), Orientation: 2)
+Box 55 (Dimensions: (124, 30, 30), Orientation: 2)
+Box 24 (Dimensions: (101, 18, 69), Orientation: 6)
+
+Placement Details:
+
+Container 1:
+Box: [112  53  66]  positioned at [0 0 0] inches from the inner wall.
+Box: [144  14  17]  positioned at [ 0 53  0] inches from the inner wall.
+Box: [70 12 30]  positioned at [ 0  0 66] inches from the inner wall.
+Box: [81 30 59]  positioned at [ 0 53 17] inches from the inner wall.
+Box: [71 81 88]  positioned at [112   0  17] inches from the inner wall.
+Box: [160  32  28]  positioned at [183   0   0] inches from the inner wall.
+Box: [29 36 66]  positioned at [183   0  28] inches from the inner wall.
+Box: [45 53 80]  positioned at [183  36   0] inches from the inner wall.
+Box: [39  3 33]  positioned at [ 0 89  0] inches from the inner wall.
+Box: [117  90   8]  positioned at [  0   0 105] inches from the inner wall.
+Box: [186  23  23]  positioned at [228  32   0] inches from the inner wall.
+Box: [57 69 60]  positioned at [228   0  28] inches from the inner wall.
+Box: [166  39  74]  positioned at [285   0  28] inches from the inner wall.
+Box: [142  35  43]  positioned at [285  55   0] inches from the inner wall.
+Box: [71  2 68]  positioned at [ 0 92  0] inches from the inner wall.
+Box: [182  14   8]  positioned at [117   0 105] inches from the inner wall.
+Box: [106  10  30]  positioned at [117  81  80] inches from the inner wall.
+Box: [159   2  17]  positioned at [ 0 94  0] inches from the inner wall.
+Box: [129   3  12]  positioned at [ 0 91 68] inches from the inner wall.
+Box: [69 52 70]  positioned at [285  39  43] inches from the inner wall.
+Box: [94 57 61]  positioned at [354  39  43] inches from the inner wall.
+Box: [  5  87 107]  positioned at [451   0   0] inches from the inner wall.
+Box: [118  13   6]  positioned at [354   0 107] inches from the inner wall.
+Box: [17 81 34]  positioned at [456  13   0] inches from the inner wall.
+Box: [23 30 73]  positioned at [456  13  34] inches from the inner wall.
+Box: [11 40 58]  positioned at [456  43  34] inches from the inner wall.
+Box: [8 9 7]  positioned at [354  13 107] inches from the inner wall.
+Box: [88 69  4]  positioned at [354  22 107] inches from the inner wall.
+Box: [84  2  2]  positioned at [  0  91 104] inches from the inner wall.
+Box: [ 9 37 19]  positioned at [467  43  34] inches from the inner wall.
+
+Container 2:
+Box: [203  42  47]  positioned at [0 0 0] inches from the inner wall.
+Box: [200  53  51]  positioned at [ 0 42  0] inches from the inner wall.
+Box: [120  81  46]  positioned at [ 0  0 51] inches from the inner wall.
+Box: [65 52 61]  positioned at [120   0  51] inches from the inner wall.
+Box: [138  65  81]  positioned at [203   0   0] inches from the inner wall.
+Box: [109  30  21]  positioned at [200  65   0] inches from the inner wall.
+Box: [143  27  39]  positioned at [120  65  51] inches from the inner wall.
+Box: [129  25  12]  positioned at [ 0 52 97] inches from the inner wall.
+Box: [42 84 38]  positioned at [341   0   0] inches from the inner wall.
+Box: [195  71   9]  positioned at [185   0  90] inches from the inner wall.
+Box: [72 70 26]  positioned at [383   0   0] inches from the inner wall.
+Box: [112  23  50]  positioned at [263  71  38] inches from the inner wall.
+Box: [146  69  10]  positioned at [185   0  99] inches from the inner wall.
+Box: [34 47 52]  positioned at [383   0  26] inches from the inner wall.
+Box: [55 44 38]  positioned at [417   0  26] inches from the inner wall.
+Box: [130  46   9]  positioned at [331   0  99] inches from the inner wall.
+Box: [81 40 65]  positioned at [383  47  26] inches from the inner wall.
+Box: [115  34  10]  positioned at [331  46  99] inches from the inner wall.
+Box: [ 27   9 103]  positioned at [375  87   0] inches from the inner wall.
+Box: [13 22 81]  positioned at [464  44   0] inches from the inner wall.
+
+Container 3:
+Box: [207  65  77]  positioned at [0 0 0] inches from the inner wall.
+Box: [184  38  81]  positioned at [207   0   0] inches from the inner wall.
+Box: [183  28  75]  positioned at [ 0 65  0] inches from the inner wall.
+Box: [152  61  28]  positioned at [ 0  0 81] inches from the inner wall.
+Box: [135  58  80]  positioned at [207  38   0] inches from the inner wall.
+Box: [134  47  43]  positioned at [342  38   0] inches from the inner wall.
+Box: [140  86  28]  positioned at [152   0  81] inches from the inner wall.
+Box: [134  52  29]  positioned at [292   0  81] inches from the inner wall.
+Box: [119  30  62]  positioned at [342  52  43] inches from the inner wall.
+
+Container 4:
+Box: [189  81  38]  positioned at [0 0 0] inches from the inner wall.
+Box: [194  46  65]  positioned at [ 0  0 38] inches from the inner wall.
+Box: [38 39 22]  positioned at [ 0 46 38] inches from the inner wall.
+Box: [89 23 67]  positioned at [38 46 38] inches from the inner wall.
+Box: [200  25  54]  positioned at [ 0 69 60] inches from the inner wall.
+Box: [73 27 63]  positioned at [200   0   0] inches from the inner wall.
+Box: [194  23  21]  positioned at [200  27   0] inches from the inner wall.
+Box: [143  26  26]  positioned at [200  50   0] inches from the inner wall.
+Box: [124  30  30]  positioned at [200  27  26] inches from the inner wall.
+Box: [ 69  18 101]  positioned at [200  76   0] inches from the inner wall.
+
+
+Placement of Non-Stackable Boxes:
+
+Positions for Empty Space in last container:
+Box 1 (55, 48, 44) positioned at [ 394 0  0] inches from the inner wall of the container
+Box 19 (26, 42, 62) positioned at [ 394 48  0] inches from the inner wall of the container
+Box 68 (16, 44, 17) positioned at [ 420 48  0] inches from the inner wall of the container
+Total Containers Used: 4

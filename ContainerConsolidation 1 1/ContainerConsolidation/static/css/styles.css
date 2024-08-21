@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+    background-image: url(https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoibWFlcnNrXC9maWxlXC90VHJFZXJFYThwY2E1Z1lnUzdGUS50aWYifQ:maersk:5Dyt9uOJdVNjb0d92A4P7Z3RjCgVENmIS49Q9r8_5yg?width=800);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h2 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #4c91af;
+    background: #f4f4f4;
+    opacity: 0.9;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    width: 150px;
+    background-color: #4c91af;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color:  #182f39;
+}
