@@ -18,7 +18,6 @@ from werkzeug.utils import secure_filename
 warnings.filterwarnings("ignore") 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'secretkey'
 app.config['UPLOAD_FOLDER'] = 'static/files'
 file_pattern2 = os.path.join("static/files", '*.csv')
 files_to_delete2 = glob.glob(file_pattern2)
